@@ -1,0 +1,16 @@
+{
+  "buildpacks": [
+    { "url": "heroku/php" }
+  ],
+  "env": {
+    "APP_KEY": {
+      "generator": "secret"
+    },
+    "APP_ENV": {
+      "value": "production"
+    },
+    "APP_DEBUG": {
+      "value": "false"
+    }
+  }
+}
