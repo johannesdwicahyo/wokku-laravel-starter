@@ -11,6 +11,15 @@
     },
     "APP_DEBUG": {
       "value": "false"
+    },
+    "SESSION_DRIVER": {
+      "value": "cookie"
+    },
+    "CACHE_STORE": {
+      "value": "file"
+    },
+    "QUEUE_CONNECTION": {
+      "value": "sync"
     }
   }
 }
