@@ -32,4 +32,4 @@ php artisan serve
 - Heroku PHP buildpack with Apache serving `public/`.
 - `release` Procfile command runs `php artisan migrate --force` on every deploy.
 
-Runtime: PHP 8.3.13 (pinned in `composer.json`).
+Runtime: PHP 8.3+ (from `composer.json` `require`; buildpack selects the latest supported 8.x).
